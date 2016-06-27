@@ -18,8 +18,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"App init!");
-    sleep(5);
+    [self createMainWindow];
     return YES;
 }
 
+-(void) createMainWindow{
+    NSLog(@"Main window init!");
+    self.window =[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //todo:Virtural view controller for hook the bug:
+    self.window.rootViewController=[UIViewController new];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+}
 @end
