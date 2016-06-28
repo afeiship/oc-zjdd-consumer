@@ -10,6 +10,4 @@
 
 @interface ZCTabViewController : UITabBarController
 
-@property (strong, nonatomic) UITabBarController *tabBarController;
-
 @end
