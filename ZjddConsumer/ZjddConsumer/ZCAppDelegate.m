@@ -7,6 +7,7 @@
 //
 
 #import "ZCAppDelegate.h"
+#import "ZCTabViewController.h"
 
 @interface ZCAppDelegate ()
 
@@ -28,7 +29,7 @@
     
     //todo:Virtural view controller for hook the bug:
     //@reference url: http://www.jianshu.com/p/4dd5773270f4
-    self.window.rootViewController=[UIViewController new];
+    self.window.rootViewController=[ZCTabViewController new];
     self.window.backgroundColor=[UIColor whiteColor];
     [self.window makeKeyAndVisible];
 }
