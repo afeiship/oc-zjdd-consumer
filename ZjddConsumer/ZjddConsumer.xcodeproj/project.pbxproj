@@ -154,10 +154,8 @@
 		22A913DA1D1D98390037500E /* ZjddConsumer */ = {
 			isa = PBXGroup;
 			children = (
-				22DCF9D51D22C08A00B27F8E /* Utils */,
+				22DCF9DB1D2368C700B27F8E /* Pages */,
 				22DCF9D21D22BD3B00B27F8E /* Config */,
-				22DCF9CC1D22B3AC00B27F8E /* Store */,
-				22DCF9961D2255E200B27F8E /* Home */,
 				226E5F9E1D1E3B2B005FF845 /* Assets */,
 				22A913F21D1D99A10037500E /* Init */,
 				226E5F9D1D1E2867005FF845 /* LaunchScreen */,
@@ -252,11 +250,13 @@
 			name = Config;
 			sourceTree = "<group>";
 		};
-		22DCF9D51D22C08A00B27F8E /* Utils */ = {
+		22DCF9DB1D2368C700B27F8E /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				22DCF9CC1D22B3AC00B27F8E /* Store */,
+				22DCF9961D2255E200B27F8E /* Home */,
 			);
-			name = Utils;
+			name = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
