@@ -154,6 +154,7 @@
 		22A913DA1D1D98390037500E /* ZjddConsumer */ = {
 			isa = PBXGroup;
 			children = (
+				22DCF9DC1D237D8400B27F8E /* Views */,
 				22DCF9DB1D2368C700B27F8E /* Pages */,
 				22DCF9D21D22BD3B00B27F8E /* Config */,
 				226E5F9E1D1E3B2B005FF845 /* Assets */,
@@ -257,6 +258,21 @@
 				22DCF9961D2255E200B27F8E /* Home */,
 			);
 			name = Pages;
+			sourceTree = "<group>";
+		};
+		22DCF9DC1D237D8400B27F8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22DCF9DD1D237D9800B27F8E /* SlideBox */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		22DCF9DD1D237D9800B27F8E /* SlideBox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SlideBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
